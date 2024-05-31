@@ -1,0 +1,247 @@
+
+#img1{
+height: 600px;
+}
+.head1{
+  margin-top: 60px;
+}
+.head2{
+  margin-top: 30px;
+}
+.servicetype{
+  margin-top: 50px;
+  padding-left: 50px;
+}
+#card1{
+  margin-top: 0px;
+}
+#card2{
+  margin-top: 10px;
+}
+#card3{
+  margin-top: 10px;
+}
+
+.head3{
+  margin-top: 60px;
+}
+.head4{
+  margin-top: 30px;
+  color:  rgb(196 149 106);
+}
+.para1{
+  margin-top: 60px;
+}
+.head5{
+  margin-top: 20px;
+  color:  rgb(196 149 106);
+
+}
+.list1{
+  margin-top: 10px;
+}
+#acrepairimg{
+  margin-top: 60px;
+}
+
+.about {
+  perspective: 1000px;
+}
+.card-container {
+  display: flex;
+}
+.card {
+  width: 100%;
+  position: relative;
+  perspective-origin: center;
+}
+.card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity as needed */
+  opacity: 0;
+  transition: opacity 0.5s;
+  pointer-events: none; /* Allow hover events to pass through */
+}
+.card:hover::before {
+  opacity: 1;
+}
+.card-content {
+  position: relative;
+  z-index: 1;
+}
+.card-content img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.head6{
+  margin-top: 50px;
+}
+.head7{
+  margin-top: 10px;
+  color: rgb(196 149 106) ;
+}
+.para2{
+  margin-top: 70px;
+}
+
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+}
+.custom-card-img {
+  height: 100px; /* Adjust the height as needed */
+  object-fit: cover; /* This property ensures the image covers the entire space allocated */
+}
+#rvwimg{
+  height: 250px;
+  
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 40px;
+}
+
+#rivew {
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  border: 2px solid #bbb;
+  background-image: url("/public/IMG_0616.JPG");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto; 
+  margin-top: 20px;
+}
+
+#rivew1{
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  border: 2px solid black;
+  background-image: url("/public/rivewimg1.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top:20px;
+}
+
+#rivew2 {
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  border: 2px solid black;
+  background-image: url("/public/rivewimg2.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 20px;
+}
+
+#head8{
+  margin-top: 70px;
+}
+#head9{
+  margin-top: 10px;
+}
+.title{
+  margin-top: 35px;
+}
+
+.rating{
+  /* background-color: gainsboro; */
+  margin-top: 40px;
+}
+#acname{
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+#head10{
+  margin-top: 40px;
+}
+.contact{
+  margin-top: 40px;
+  background-color: aliceblue;
+}
+.flip-card-back {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Align content vertically in the center */
+  align-items: center; /* Align content horizontally in the center */
+}
+
+.content {
+  text-align: center; /* Center-align the text within this div */
+}
+/* Hide carousel caption on small devices */
+@media (max-width: 576px) {
+  .carousel-caption {
+    display: none;
+  }
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: .5rem;
+  padding-left: 40px;
+}
+.brand-name {
+    color: #0d6efd; /* Set text color */
+    font-family: Arial, sans-serif; /* Set font family */
+    font-size: 24px; /* Set font size */
+    font-weight: bold; /* Set font weight if needed */
+    /* Add other font properties as needed */
+}
+
+
+#navsitem{
+
+}
+#navsitem:hover{
+  color: #0d6efd;
+}
